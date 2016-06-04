@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'contacts/new'
+
+  get 'contacts/create'
+
   # root to: 'visitors#index'
   devise_for :users
   resources :users
